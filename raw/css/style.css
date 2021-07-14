@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://picsum.photos/3840/2160);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+}
+.fondo_registro{
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063bb, #56ab2fb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063b6, #56ab2fa8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fondo_login{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92d0, #000428c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+}
+.hr_login{
+    border-color:white;
+}
+.botones{
+    color: white;
+    background-color: rgba(3, 219, 3, 0.795);
+}
+.link{
+    color: #b9b2af;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(255, 255, 255);
+}
+.iconos{
+    size: 90px;
+    font-size: 90px;
+    margin: 20px;
+}
+.btn_root{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.nabar{
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;    
+}
+.pulse:focus,.pulse:hover{-webkit-animation:pulse 2s;animation:pulse 2s;box-shadow:0 0 0 2em rgba(212, 69, 25, 0)}
+@-webkit-keyframes pulse{0%{box-shadow:0 0 var(--hover)}}
+@keyframes pulse{0%{box-shadow:0 0 var(--hover)}}
+.pulse{--color:#f1c841;--hover: #41f14a}
+
+
