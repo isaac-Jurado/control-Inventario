@@ -27,7 +27,7 @@
         <div class="row justify-content-center  mt-5">
             <div class="col-md-8 text-center">
                 <span class="btn btn_root  pulse mr-5 "> <i class="fas fa-plus-square iconos"></i><br> AGREGAR ELEMTENTO</span>
-                <span class="btn  btn_root pulse"><i class="fas fa-search iconos"></i> <br> BUSCAR ELEMENTO</span>
+                <a href="../view/busqueda.php"><span class="btn  btn_root pulse"><i class="fas fa-search iconos"></i> <br> BUSCAR ELEMENTO</span></a>
             </div>
         </div>
         <div class="row justify-content-center mt-5">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-07-2021 a las 08:58:37
+-- Tiempo de generación: 14-07-2021 a las 09:14:49
 -- Versión del servidor: 10.4.19-MariaDB
 -- Versión de PHP: 7.3.28
 
@@ -20,6 +20,22 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `control`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `admin`
+--
+
+CREATE TABLE `admin` (
+  `id_admin` int(11) NOT NULL,
+  `Nombre` varchar(30) COLLATE utf8_bin DEFAULT NULL,
+  `Paterno` varchar(30) COLLATE utf8_bin DEFAULT NULL,
+  `Materno` varchar(30) COLLATE utf8_bin DEFAULT NULL,
+  `NoEmpleado` int(11) DEFAULT NULL,
+  `email` varchar(30) COLLATE utf8_bin DEFAULT NULL,
+  `contrasenia` varchar(30) COLLATE utf8_bin DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 
@@ -42,6 +58,12 @@ CREATE TABLE `id_usuario` (
 --
 
 --
+-- Indices de la tabla `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id_admin`);
+
+--
 -- Indices de la tabla `id_usuario`
 --
 ALTER TABLE `id_usuario`
@@ -50,6 +72,12 @@ ALTER TABLE `id_usuario`
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
+
+--
+-- AUTO_INCREMENT de la tabla `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `id_usuario`

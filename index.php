@@ -33,7 +33,9 @@
                 case 'registro':
                     require_once 'view/registro.php';
                     break;
-                
+                case 'test':
+                    require_once 'app/conexion.php';
+                    break;
                 default:
                     echo 'error 404';
                     break;

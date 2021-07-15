@@ -48,15 +48,26 @@ $(document).ready(function(){
                                         title: 'Oops...',
                                         text: 'Confirmar Constrasenia vacio',
                                     })
+                                
                                 }else{
-                                    //! como verificar mi chek point
-                                    if($('#1').val()==''){
+                                    if($("#contrasenia").val()==$('#confirmar_contrasenia').val()){
+                                        console.log('genial')
+                                        $.ajax({
+                                            url:'../control/controlRegistro.php',
+                                            data:$('#form').serialize(),
+                                            type:'POST',
+                                            success: (respuesta)=>{
+                                                console.log(respuesta);
+                                            }
+                                        })
+                                    }else{
                                         Swal.fire({
                                             icon: 'error',
                                             title: 'Oops...',
-                                            text: 'Elegir una opcion vacio',
+                                            text: 'contrasenia diferente intente de nuevo',
                                         })
                                     }
+                                    
                                 }
                             }
                         }

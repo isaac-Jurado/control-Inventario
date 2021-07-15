@@ -28,7 +28,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="login_contrasenia"><i class="fas fa-lock mr-2"></i>Ingresa Contrasenia</label>
-                                        <input type="password" class="form-control form-control-sm rounded-pill " id="login_contrasenia" name="login_contrasenia" placeholder="Ingresa tu contraseña" >
+                                        <input type="password" class="form-control form-control-sm rounded-pill " id="login_contrasenia" name="login_contrasenia" placeholder="Ingresa tu contraseña" required >
                                     </div>
                                 </div>
                             </div>
