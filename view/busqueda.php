@@ -32,10 +32,12 @@
                            <th>ID PROGRESIVO</th>
                            <th>UBICACION</th>
                            <th>CONSUMIBLE O INVENTARIABLE</th>
+                           <th>ELIMINAR</th>
                        </tr>
                    </thead>
                    <tbody>
                        <tr class="table-light">
+                           <td></td>
                            <td></td>
                            <td></td>
                            <td></td>

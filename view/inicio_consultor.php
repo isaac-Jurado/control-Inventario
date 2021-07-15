@@ -29,7 +29,7 @@
             <div class="col-md-8 text-center ">
             
                 
-                <a href="../view/registro.php"><span class="btn  btn_root pulse"><i class="fas fa-search iconos"></i> <br> BUSCAR</span></a>   
+                <a href="../view/busqueda.php"><span class="btn  btn_root pulse"><i class="fas fa-search iconos"></i> <br> BUSCAR</span></a>   
             </div>
            
 

@@ -26,15 +26,15 @@
     <div class="container  mt-5">
         <div class="row justify-content-center  mt-5">
             <div class="col-md-8 text-center">
-                <span class="btn btn_root  pulse mr-5 "> <i class="fas fa-plus-square iconos"></i><br> AGREGAR ELEMTENTO</span>
+                <a href="../view/agregar.php"><span class="btn btn_root  pulse mr-5 "> <i class="fas fa-plus-square iconos"></i><br> AGREGAR ELEMTENTO</span></a>
                 <a href="../view/busqueda.php"><span class="btn  btn_root pulse"><i class="fas fa-search iconos"></i> <br> BUSCAR ELEMENTO</span></a>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-md-8 text-center ">
             
-                <span class="btn btn_root pulse mr-5"> <i class="fas fa-trash-alt iconos  "></i> <br> ELIMINAR ELEMENTO</span>
-                <a href="../view/registro.php"><span class="btn  btn_root pulse">  <i class="fas fa-user-plus iconos"></i> <br> AGREGAR USUARIO</span></div></a>   
+            <a href="../view/registroUsuario.php"><span class="btn  btn_root pulse">  <i class="fas fa-user-plus iconos"></i> <br> AGREGAR USUARIO</span></div></a>
+                <a href="../view/registro.php"><span class="btn  btn_root pulse">  <i class="fas fa-user-plus iconos"></i> <br> AGREGAR ADMINISTRADOR</span></div></a>   
             </div>
            
 
